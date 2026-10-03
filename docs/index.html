@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DSA TRACKING</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=1791026056" />
+
+    <!-- GSAP for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  </head>
+  <body class="pink-mode flat-ui">
+    <!-- Floating Background Elements (kept for aesthetics, but muted in CSS) -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <div class="app-container" id="app-container">
+      
+      <!-- Left Panel (Sidebar / Analytics) -->
+      <aside class="sidebar panel" id="sidebar">
+        <div class="sidebar-content-wrapper">
+          <div class="sidebar-top-section">
+            <div class="sidebar-header">
+              <h1 class="glitch-text" style="font-size: 2.2rem; margin-bottom: 0.2rem;">DSA TRACKING</h1>
+              <p class="subtitle" style="margin-bottom: 1rem; font-size: 0.9rem;">DSA PROGRESS</p>
+            </div>
+            <div class="stats-and-pie-wrapper">
+              <div class="stats-overview-list" id="stats-overview">
+                <div class="stat-list-item">
+                  <span class="stat-label">Total Solved</span>
+                  <span class="stat-value highlight-cyan" id="stat-total">0</span>
+                </div>
+                <div class="stat-list-item">
+                  <span class="stat-label">Current Streak</span>
+                  <span class="stat-value" id="stat-streak">0</span>
+                </div>
+                <div class="stat-list-item">
+                  <span class="stat-label">Longest Streak</span>
+                  <span class="stat-value" id="stat-max-streak">0</span>
+                </div>
+                <div class="stat-list-item">
+                  <span class="stat-label">Active Days</span>
+                  <span class="stat-value" id="stat-active-days">0</span>
+                </div>
+                <div class="stat-list-item">
+                  <span class="stat-label">Avg / Day</span>
+                  <span class="stat-value" id="stat-avg-day">0.0</span>
+                </div>
+              </div>
+              <div class="chart-container donut-wrapper" id="donut-chart-container">
+                <canvas id="difficultyDonut"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <div class="sidebar-middle-section">
+            <!-- Topics Block -->
+            <div class="topics-container panel-section" id="topics-panel">
+              <h3 class="section-title">Topics</h3>
+              <div class="topic-pills-wrapper" id="topic-pills-wrapper">
+                <!-- Topic pills will be injected here via JavaScript -->
+              </div>
+            </div>
+
+            <!-- Detailed Analytics Graph (Hidden by default) -->
+            <div class="analytics-section" id="analytics-section">
+              <div class="analytics-controls">
+                <select id="analytics-range" class="dropdown-select compact">
+                  <option value="7">Last 7 Days</option>
+                  <option value="30">Last 30 Days</option>
+                  <option value="90">Last 3 Months</option>
+                  <option value="180">Last 6 Months</option>
+                  <option value="365">Last 1 Year</option>
+                  <option value="all" selected>All Time</option>
+                  <option value="custom">Custom Range</option>
+                </select>
+                <div id="custom-date-picker" style="display: none; gap: 0.5rem; align-items: center;">
+                  <input type="date" id="custom-start" class="dropdown-select compact" />
+                  <span style="color: var(--text-secondary); font-size: 0.8rem;">to</span>
+                  <input type="date" id="custom-end" class="dropdown-select compact" />
+                </div>
+                <select id="analytics-agg" class="dropdown-select compact">
+                  <option value="daily">Daily</option>
+                  <option value="weekly">Weekly</option>
+                  <option value="monthly">Monthly</option>
+                </select>
+              </div>
+              
+              <div class="chart-scroll-wrapper">
+                <div class="chart-container bar-wrapper" id="bar-chart-container">
+                  <canvas id="analyticsBarChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sidebar-bottom-section">
+            <button id="toggle-analytics-btn" class="action-btn block-btn" style="margin-bottom: 1rem;">
+              <i class="fa-solid fa-chart-line"></i> <span>Detailed Analytics</span>
+            </button>
+
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <div class="social-links" id="sidebar-socials">
+                <a href="https://leetcode.com/u/gowshiya231/" target="_blank" title="LeetCode"><i class="fa-solid fa-code"></i></a>
+                <a href="https://github.com/GOWSHIYA231" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/gowshiya-cse/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bx2Rh7lMjSwiU13y0xchHLA%3D%" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" target="_blank" title="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+              </div>
+              
+              <!-- Theme Toggle -->
+              <label class="theme-switch" for="theme-toggle" title="Toggle Pink Toy Mode 🦄">
+                <input type="checkbox" id="theme-toggle" />
+                <span class="slider">
+                  <i class="fa-solid fa-moon icon"></i>
+                  <i class="fa-solid fa-gamepad icon" style="color: #fff"></i>
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Main Layout Resizer -->
+      <div class="resizer resizer-vertical" id="main-resizer"></div>
+
+      <!-- Right Panel (Explorer) -->
+      <main class="main-content panel" id="main-content">
+        <!-- Controls Section -->
+        <section class="controls panel-section">
+          <div class="controls-top">
+            <div class="search-wrapper">
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+              <input type="text" id="search-input" placeholder="Search problems..." />
+              <button id="clear-search-btn" class="clear-search-btn" style="display: none" title="Clear search">
+                <i class="fa-solid fa-times"></i>
+              </button>
+            </div>
+            
+            <div class="controls-actions">
+              <select id="sort-select" class="dropdown-select">
+                <option value="date-desc" selected>Sort: Newest</option>
+                <option value="date-asc">Sort: Oldest</option>
+                <option value="num-asc">Sort: Number (Asc)</option>
+              </select>
+              <span id="results-count" class="results-counter">Found: 0</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Active Filter Indicator -->
+        <div id="active-time-filter" class="active-time-filter panel-section" style="display: none;">
+            <span id="active-time-filter-text">Showing filtered problems</span>
+            <button id="clear-time-filter-btn" class="action-btn small-btn">Clear Filter</button>
+        </div>
+
+        <!-- Heatmap -->
+        <div class="heatmap-container panel-section" id="heatmap-panel">
+          <div class="heatmap-header" style="display: flex; justify-content: center; margin-bottom: 0.5rem;">
+            <span id="heatmap-total" class="meta-text" style="font-weight: 600;">0 problems in the last year</span>
+          </div>
+          <div class="heatmap-scroll-wrapper" style="display: flex; justify-content: center;">
+            <div id="heatmap-grid" class="heatmap-months-wrapper" style="display: flex; gap: 15px;"></div>
+          </div>
+        </div>
+
+        <!-- Explorer Split -->
+        <div class="explorer-split">
+          <!-- Problem List Pane -->
+          <div class="problem-list-pane panel" id="problem-list-pane" style="flex: 1;">
+            
+            <!-- Revision Section Accordion -->
+            <div class="accordion" id="revision-accordion" style="display: none;">
+              <div class="accordion-header" id="revision-accordion-header">
+                <div class="accordion-title">
+                  <i class="fa-solid fa-clock-rotate-left"></i> To Be Revised Today
+                  <span class="badge" id="revision-badge">0</span>
+                </div>
+                <i class="fa-solid fa-chevron-down accordion-icon"></i>
+              </div>
+              <div class="accordion-content" id="revision-accordion-content">
+                <div class="problems-grid list-view" id="revision-grid"></div>
+              </div>
+            </div>
+
+            <!-- Main Problems Grid -->
+            <div class="problems-grid list-view" id="problems-grid">
+              <!-- Problem cards injected here -->
+            </div>
+          </div>
+          
+          <!-- Explorer Resizer (Hidden when detail pane is hidden) -->
+          <div class="resizer resizer-vertical" id="explorer-resizer" style="display: none;"></div>
+
+          <!-- Problem Detail Pane -->
+          <div class="problem-detail-pane panel" id="problem-detail-pane" style="display: none; width: 40%;">
+            <div class="detail-header-actions">
+              <button id="close-detail-btn" class="icon-btn" title="Close Details"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="detail-content" id="detail-content">
+              <!-- Injected by JS -->
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- Data script generated by Python -->
+    <script src="data.js?v=1791026056"></script>
+    <!-- App logic -->
+    <script src="app.js?v=1791026056"></script>
+  </body>
+</html>

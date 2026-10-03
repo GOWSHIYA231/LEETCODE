@@ -1,0 +1,4 @@
+dsa-config.json
+__pycache__/
+.env
+*.pyc
