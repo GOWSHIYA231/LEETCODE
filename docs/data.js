@@ -1,7 +1,7 @@
 const dsaData = {
-  "total": 10,
+  "total": 11,
   "difficulty": {
-    "Easy": 9,
+    "Easy": 10,
     "Medium": 1,
     "Hard": 0,
     "Unknown": 0
@@ -20,12 +20,19 @@ const dsaData = {
       "Medium": 1,
       "Hard": 0,
       "Unknown": 0
+    },
+    "Math": {
+      "Total": 1,
+      "Easy": 1,
+      "Medium": 0,
+      "Hard": 0,
+      "Unknown": 0
     }
   },
   "topic_stats": {
     "Array": 5,
     "Hash Table": 3,
-    "Math": 6,
+    "Math": 7,
     "Sorting": 2,
     "Counting Sort": 1,
     "Matrix": 1,
@@ -191,6 +198,20 @@ const dsaData = {
       "folder_path": "D:\\PROGRAMMING\\Arrays\\1979_find_greatest_common_divisor_of_array",
       "rel_folder": "Arrays/1979_find_greatest_common_divisor_of_array",
       "encoded_folder": "Arrays/1979_find_greatest_common_divisor_of_array"
+    },
+    {
+      "num": "2652",
+      "title": "Sum Multiples",
+      "link": "https://leetcode.com/problems/sum-multiples/",
+      "difficulty": "Easy",
+      "category": "Math",
+      "topics": [
+        "Math"
+      ],
+      "date": "2026-10-11",
+      "folder_path": "D:\\PROGRAMMING\\Math\\2652_sum_multiples",
+      "rel_folder": "Math/2652_sum_multiples",
+      "encoded_folder": "Math/2652_sum_multiples"
     }
   ]
 };

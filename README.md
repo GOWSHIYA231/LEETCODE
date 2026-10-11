@@ -3,11 +3,11 @@
 ## 📊 Statistics
 
 <!-- STATS:START -->
-**Total Problems Solved:** 10
+**Total Problems Solved:** 11
 
 ### Difficulty Breakdown
-- 🟢 **Easy** (90.0%): `██████████████████░░` (9)
-- 🟡 **Medium** (10.0%): `██░░░░░░░░░░░░░░░░░░` (1)
+- 🟢 **Easy** (90.9%): `██████████████████░░` (10)
+- 🟡 **Medium** (9.1%): `██░░░░░░░░░░░░░░░░░░` (1)
 - 🔴 **Hard** (0.0%): `░░░░░░░░░░░░░░░░░░░░` (0)
 
 ### Topic Breakdown
@@ -16,6 +16,7 @@
 |---|---|---|---|---|
 | **Arrays** | 5 | 5 | 0 | 0 |
 | **Other** | 5 | 4 | 1 | 0 |
+| **Math** | 1 | 1 | 0 | 0 |
 
 <!-- STATS:END -->
 
@@ -36,5 +37,6 @@
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | 🟢 Easy | Arrays | [Code & Doc](./Arrays/1672_richest_customer_wealth) |
 | 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors/) | 🟢 Easy | Other | [Code & Doc](./Other/1952_three_divisors) |
 | 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy | Arrays | [Code & Doc](./Arrays/1979_find_greatest_common_divisor_of_array) |
+| 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples/) | 🟢 Easy | Math | [Code & Doc](./Math/2652_sum_multiples) |
 
 <!-- TABLE:END -->
