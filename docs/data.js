@@ -1,7 +1,7 @@
 const dsaData = {
-  "total": 11,
+  "total": 12,
   "difficulty": {
-    "Easy": 10,
+    "Easy": 11,
     "Medium": 1,
     "Hard": 0,
     "Unknown": 0
@@ -22,8 +22,8 @@ const dsaData = {
       "Unknown": 0
     },
     "Math": {
-      "Total": 1,
-      "Easy": 1,
+      "Total": 2,
+      "Easy": 2,
       "Medium": 0,
       "Hard": 0,
       "Unknown": 0
@@ -32,7 +32,7 @@ const dsaData = {
   "topic_stats": {
     "Array": 5,
     "Hash Table": 3,
-    "Math": 7,
+    "Math": 8,
     "Sorting": 2,
     "Counting Sort": 1,
     "Matrix": 1,
@@ -198,6 +198,20 @@ const dsaData = {
       "folder_path": "D:\\PROGRAMMING\\Arrays\\1979_find_greatest_common_divisor_of_array",
       "rel_folder": "Arrays/1979_find_greatest_common_divisor_of_array",
       "encoded_folder": "Arrays/1979_find_greatest_common_divisor_of_array"
+    },
+    {
+      "num": "2469",
+      "title": "Convert the Temperature",
+      "link": "https://leetcode.com/problems/convert-the-temperature/",
+      "difficulty": "Easy",
+      "category": "Math",
+      "topics": [
+        "Math"
+      ],
+      "date": "2026-10-11",
+      "folder_path": "D:\\PROGRAMMING\\Math\\2469_convert_the_temperature",
+      "rel_folder": "Math/2469_convert_the_temperature",
+      "encoded_folder": "Math/2469_convert_the_temperature"
     },
     {
       "num": "2652",
