@@ -3,18 +3,18 @@
 ## 📊 Statistics
 
 <!-- STATS:START -->
-**Total Problems Solved:** 17
+**Total Problems Solved:** 18
 
 ### Difficulty Breakdown
-- 🟢 **Easy** (94.1%): `███████████████████░` (16)
-- 🟡 **Medium** (5.9%): `█░░░░░░░░░░░░░░░░░░░` (1)
+- 🟢 **Easy** (94.4%): `███████████████████░` (17)
+- 🟡 **Medium** (5.6%): `█░░░░░░░░░░░░░░░░░░░` (1)
 - 🔴 **Hard** (0.0%): `░░░░░░░░░░░░░░░░░░░░` (0)
 
 ### Topic Breakdown
 
 | Topic | Total | 🟢 Easy | 🟡 Medium | 🔴 Hard |
 |---|---|---|---|---|
-| **Arrays** | 8 | 8 | 0 | 0 |
+| **Arrays** | 9 | 9 | 0 | 0 |
 | **Other** | 5 | 4 | 1 | 0 |
 | **Math** | 4 | 4 | 0 | 0 |
 
@@ -40,6 +40,7 @@
 | 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | 🟢 Easy | Other | [Code & Doc](./Other/1523_count_odd_numbers_in_an_interval_range) |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | 🟢 Easy | Arrays | [Code & Doc](./Arrays/1672_richest_customer_wealth) |
 | 1913 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) | 🟢 Easy | Math | [Code & Doc](./Math/1913_maximum_product_difference_between_two_pairs) |
+| 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | 🟢 Easy | Arrays | [Code & Doc](./Arrays/1920_build_array_from_permutation) |
 | 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors/) | 🟢 Easy | Other | [Code & Doc](./Other/1952_three_divisors) |
 | 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy | Arrays | [Code & Doc](./Arrays/1979_find_greatest_common_divisor_of_array) |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | Math | [Code & Doc](./Math/2469_convert_the_temperature) |

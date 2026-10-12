@@ -1,15 +1,15 @@
 const dsaData = {
-  "total": 17,
+  "total": 18,
   "difficulty": {
-    "Easy": 16,
+    "Easy": 17,
     "Medium": 1,
     "Hard": 0,
     "Unknown": 0
   },
   "categories": {
     "Arrays": {
-      "Total": 8,
-      "Easy": 8,
+      "Total": 9,
+      "Easy": 9,
       "Medium": 0,
       "Hard": 0,
       "Unknown": 0
@@ -30,7 +30,7 @@ const dsaData = {
     }
   },
   "topic_stats": {
-    "Array": 9,
+    "Array": 10,
     "Hash Table": 3,
     "Math": 9,
     "Sorting": 3,
@@ -39,6 +39,7 @@ const dsaData = {
     "Bit Manipulation": 1,
     "Matrix": 1,
     "Quicksort": 1,
+    "Simulation": 1,
     "Enumeration": 1,
     "Number Theory": 2,
     "Prime Factorization": 1,
@@ -239,6 +240,21 @@ const dsaData = {
       "folder_path": "D:\\PROGRAMMING\\Math\\1913_maximum_product_difference_between_two_pairs",
       "rel_folder": "Math/1913_maximum_product_difference_between_two_pairs",
       "encoded_folder": "Math/1913_maximum_product_difference_between_two_pairs"
+    },
+    {
+      "num": "1920",
+      "title": "Build Array from Permutation",
+      "link": "https://leetcode.com/problems/build-array-from-permutation/",
+      "difficulty": "Easy",
+      "category": "Arrays",
+      "topics": [
+        "Array",
+        "Simulation"
+      ],
+      "date": "2026-10-12",
+      "folder_path": "D:\\PROGRAMMING\\Arrays\\1920_build_array_from_permutation",
+      "rel_folder": "Arrays/1920_build_array_from_permutation",
+      "encoded_folder": "Arrays/1920_build_array_from_permutation"
     },
     {
       "num": "1952",
