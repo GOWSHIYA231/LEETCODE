@@ -1,15 +1,15 @@
 const dsaData = {
-  "total": 18,
+  "total": 19,
   "difficulty": {
-    "Easy": 17,
+    "Easy": 18,
     "Medium": 1,
     "Hard": 0,
     "Unknown": 0
   },
   "categories": {
     "Arrays": {
-      "Total": 9,
-      "Easy": 9,
+      "Total": 10,
+      "Easy": 10,
       "Medium": 0,
       "Hard": 0,
       "Unknown": 0
@@ -30,9 +30,9 @@ const dsaData = {
     }
   },
   "topic_stats": {
-    "Array": 10,
+    "Array": 11,
     "Hash Table": 3,
-    "Math": 9,
+    "Math": 10,
     "Sorting": 3,
     "Counting Sort": 1,
     "Prefix Sum": 1,
@@ -120,6 +120,21 @@ const dsaData = {
       "folder_path": "D:\\PROGRAMMING\\Other\\1281_subtract_the_product_and_sum_of_digits_of_an_integer",
       "rel_folder": "Other/1281_subtract_the_product_and_sum_of_digits_of_an_integer",
       "encoded_folder": "Other/1281_subtract_the_product_and_sum_of_digits_of_an_integer"
+    },
+    {
+      "num": "1295",
+      "title": "Find Numbers with Even Number of Digits",
+      "link": "https://leetcode.com/problems/find-numbers-with-even-number-of-digits/",
+      "difficulty": "Easy",
+      "category": "Arrays",
+      "topics": [
+        "Array",
+        "Math"
+      ],
+      "date": "2026-10-12",
+      "folder_path": "D:\\PROGRAMMING\\Arrays\\1295_find_numbers_with_even_number_of_digits",
+      "rel_folder": "Arrays/1295_find_numbers_with_even_number_of_digits",
+      "encoded_folder": "Arrays/1295_find_numbers_with_even_number_of_digits"
     },
     {
       "num": "1365",
