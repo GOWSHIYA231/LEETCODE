@@ -1,7 +1,7 @@
 const dsaData = {
-  "total": 13,
+  "total": 14,
   "difficulty": {
-    "Easy": 12,
+    "Easy": 13,
     "Medium": 1,
     "Hard": 0,
     "Unknown": 0
@@ -22,21 +22,22 @@ const dsaData = {
       "Unknown": 0
     },
     "Math": {
-      "Total": 3,
-      "Easy": 3,
+      "Total": 4,
+      "Easy": 4,
       "Medium": 0,
       "Hard": 0,
       "Unknown": 0
     }
   },
   "topic_stats": {
-    "Array": 5,
+    "Array": 6,
     "Hash Table": 3,
     "Math": 9,
-    "Sorting": 2,
+    "Sorting": 3,
     "Counting Sort": 1,
     "Bit Manipulation": 1,
     "Matrix": 1,
+    "Quicksort": 1,
     "Enumeration": 1,
     "Number Theory": 2,
     "Prime Factorization": 1,
@@ -178,6 +179,22 @@ const dsaData = {
       "folder_path": "D:\\PROGRAMMING\\Arrays\\1672_richest_customer_wealth",
       "rel_folder": "Arrays/1672_richest_customer_wealth",
       "encoded_folder": "Arrays/1672_richest_customer_wealth"
+    },
+    {
+      "num": "1913",
+      "title": "Maximum Product Difference Between Two Pairs",
+      "link": "https://leetcode.com/problems/maximum-product-difference-between-two-pairs/",
+      "difficulty": "Easy",
+      "category": "Math",
+      "topics": [
+        "Array",
+        "Sorting",
+        "Quicksort"
+      ],
+      "date": "2026-10-12",
+      "folder_path": "D:\\PROGRAMMING\\Math\\1913_maximum_product_difference_between_two_pairs",
+      "rel_folder": "Math/1913_maximum_product_difference_between_two_pairs",
+      "encoded_folder": "Math/1913_maximum_product_difference_between_two_pairs"
     },
     {
       "num": "1952",

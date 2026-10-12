@@ -3,11 +3,11 @@
 ## 📊 Statistics
 
 <!-- STATS:START -->
-**Total Problems Solved:** 13
+**Total Problems Solved:** 14
 
 ### Difficulty Breakdown
-- 🟢 **Easy** (92.3%): `██████████████████░░` (12)
-- 🟡 **Medium** (7.7%): `██░░░░░░░░░░░░░░░░░░` (1)
+- 🟢 **Easy** (92.9%): `███████████████████░` (13)
+- 🟡 **Medium** (7.1%): `█░░░░░░░░░░░░░░░░░░░` (1)
 - 🔴 **Hard** (0.0%): `░░░░░░░░░░░░░░░░░░░░` (0)
 
 ### Topic Breakdown
@@ -16,7 +16,7 @@
 |---|---|---|---|---|
 | **Arrays** | 5 | 5 | 0 | 0 |
 | **Other** | 5 | 4 | 1 | 0 |
-| **Math** | 3 | 3 | 0 | 0 |
+| **Math** | 4 | 4 | 0 | 0 |
 
 <!-- STATS:END -->
 
@@ -36,6 +36,7 @@
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | 🟢 Easy | Math | [Code & Doc](./Math/1486_xor_operation_in_an_array) |
 | 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | 🟢 Easy | Other | [Code & Doc](./Other/1523_count_odd_numbers_in_an_interval_range) |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | 🟢 Easy | Arrays | [Code & Doc](./Arrays/1672_richest_customer_wealth) |
+| 1913 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) | 🟢 Easy | Math | [Code & Doc](./Math/1913_maximum_product_difference_between_two_pairs) |
 | 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors/) | 🟢 Easy | Other | [Code & Doc](./Other/1952_three_divisors) |
 | 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy | Arrays | [Code & Doc](./Arrays/1979_find_greatest_common_divisor_of_array) |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | Math | [Code & Doc](./Math/2469_convert_the_temperature) |
