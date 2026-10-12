@@ -3,11 +3,11 @@
 ## 📊 Statistics
 
 <!-- STATS:START -->
-**Total Problems Solved:** 19
+**Total Problems Solved:** 20
 
 ### Difficulty Breakdown
-- 🟢 **Easy** (94.7%): `███████████████████░` (18)
-- 🟡 **Medium** (5.3%): `█░░░░░░░░░░░░░░░░░░░` (1)
+- 🟢 **Easy** (95.0%): `███████████████████░` (19)
+- 🟡 **Medium** (5.0%): `█░░░░░░░░░░░░░░░░░░░` (1)
 - 🔴 **Hard** (0.0%): `░░░░░░░░░░░░░░░░░░░░` (0)
 
 ### Topic Breakdown
@@ -16,7 +16,7 @@
 |---|---|---|---|---|
 | **Arrays** | 10 | 10 | 0 | 0 |
 | **Other** | 5 | 4 | 1 | 0 |
-| **Math** | 4 | 4 | 0 | 0 |
+| **Math** | 5 | 5 | 0 | 0 |
 
 <!-- STATS:END -->
 
@@ -29,6 +29,7 @@
 |---|---|---|---|---|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Arrays | [Code & Doc](./Arrays/1_two_sum) |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Other | [Code & Doc](./Other/7_reverse_integer) |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | Math | [Code & Doc](./Math/9_palindrome_number) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | Other | [Code & Doc](./Other/9_palindrome_number) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy | Arrays | [Code & Doc](./Arrays/217_contains_duplicate) |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 Easy | Other | [Code & Doc](./Other/1281_subtract_the_product_and_sum_of_digits_of_an_integer) |

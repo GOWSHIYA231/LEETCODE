@@ -1,7 +1,7 @@
 const dsaData = {
-  "total": 19,
+  "total": 20,
   "difficulty": {
-    "Easy": 18,
+    "Easy": 19,
     "Medium": 1,
     "Hard": 0,
     "Unknown": 0
@@ -22,8 +22,8 @@ const dsaData = {
       "Unknown": 0
     },
     "Math": {
-      "Total": 4,
-      "Easy": 4,
+      "Total": 5,
+      "Easy": 5,
       "Medium": 0,
       "Hard": 0,
       "Unknown": 0
@@ -32,7 +32,7 @@ const dsaData = {
   "topic_stats": {
     "Array": 11,
     "Hash Table": 3,
-    "Math": 10,
+    "Math": 11,
     "Sorting": 3,
     "Counting Sort": 1,
     "Prefix Sum": 1,
@@ -76,6 +76,20 @@ const dsaData = {
       "folder_path": "D:\\PROGRAMMING\\Other\\7_reverse_integer",
       "rel_folder": "Other/7_reverse_integer",
       "encoded_folder": "Other/7_reverse_integer"
+    },
+    {
+      "num": "9",
+      "title": "Palindrome Number",
+      "link": "https://leetcode.com/problems/palindrome-number/",
+      "difficulty": "Easy",
+      "category": "Math",
+      "topics": [
+        "Math"
+      ],
+      "date": "2026-10-12",
+      "folder_path": "D:\\PROGRAMMING\\Math\\9_palindrome_number",
+      "rel_folder": "Math/9_palindrome_number",
+      "encoded_folder": "Math/9_palindrome_number"
     },
     {
       "num": "9",
