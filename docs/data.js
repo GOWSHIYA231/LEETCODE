@@ -1,15 +1,15 @@
 const dsaData = {
-  "total": 14,
+  "total": 15,
   "difficulty": {
-    "Easy": 13,
+    "Easy": 14,
     "Medium": 1,
     "Hard": 0,
     "Unknown": 0
   },
   "categories": {
     "Arrays": {
-      "Total": 5,
-      "Easy": 5,
+      "Total": 6,
+      "Easy": 6,
       "Medium": 0,
       "Hard": 0,
       "Unknown": 0
@@ -30,11 +30,12 @@ const dsaData = {
     }
   },
   "topic_stats": {
-    "Array": 6,
+    "Array": 7,
     "Hash Table": 3,
     "Math": 9,
     "Sorting": 3,
     "Counting Sort": 1,
+    "Prefix Sum": 1,
     "Bit Manipulation": 1,
     "Matrix": 1,
     "Quicksort": 1,
@@ -135,6 +136,21 @@ const dsaData = {
       "folder_path": "D:\\PROGRAMMING\\Arrays\\1365_how_many_numbers_are_smaller_than_the_current_number",
       "rel_folder": "Arrays/1365_how_many_numbers_are_smaller_than_the_current_number",
       "encoded_folder": "Arrays/1365_how_many_numbers_are_smaller_than_the_current_number"
+    },
+    {
+      "num": "1480",
+      "title": "Running Sum of 1d Array",
+      "link": "https://leetcode.com/problems/running-sum-of-1d-array/",
+      "difficulty": "Easy",
+      "category": "Arrays",
+      "topics": [
+        "Array",
+        "Prefix Sum"
+      ],
+      "date": "2026-10-12",
+      "folder_path": "D:\\PROGRAMMING\\Arrays\\1480_running_sum_of_1d_array",
+      "rel_folder": "Arrays/1480_running_sum_of_1d_array",
+      "encoded_folder": "Arrays/1480_running_sum_of_1d_array"
     },
     {
       "num": "1486",
