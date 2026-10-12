@@ -1,15 +1,15 @@
 const dsaData = {
-  "total": 15,
+  "total": 16,
   "difficulty": {
-    "Easy": 14,
+    "Easy": 15,
     "Medium": 1,
     "Hard": 0,
     "Unknown": 0
   },
   "categories": {
     "Arrays": {
-      "Total": 6,
-      "Easy": 6,
+      "Total": 7,
+      "Easy": 7,
       "Medium": 0,
       "Hard": 0,
       "Unknown": 0
@@ -30,7 +30,7 @@ const dsaData = {
     }
   },
   "topic_stats": {
-    "Array": 7,
+    "Array": 8,
     "Hash Table": 3,
     "Math": 9,
     "Sorting": 3,
@@ -136,6 +136,20 @@ const dsaData = {
       "folder_path": "D:\\PROGRAMMING\\Arrays\\1365_how_many_numbers_are_smaller_than_the_current_number",
       "rel_folder": "Arrays/1365_how_many_numbers_are_smaller_than_the_current_number",
       "encoded_folder": "Arrays/1365_how_many_numbers_are_smaller_than_the_current_number"
+    },
+    {
+      "num": "1470",
+      "title": "Shuffle the Array",
+      "link": "https://leetcode.com/problems/shuffle-the-array/",
+      "difficulty": "Easy",
+      "category": "Arrays",
+      "topics": [
+        "Array"
+      ],
+      "date": "2026-10-12",
+      "folder_path": "D:\\PROGRAMMING\\Arrays\\1470_shuffle_the_array",
+      "rel_folder": "Arrays/1470_shuffle_the_array",
+      "encoded_folder": "Arrays/1470_shuffle_the_array"
     },
     {
       "num": "1480",
