@@ -1,15 +1,15 @@
 const dsaData = {
-  "total": 16,
+  "total": 17,
   "difficulty": {
-    "Easy": 15,
+    "Easy": 16,
     "Medium": 1,
     "Hard": 0,
     "Unknown": 0
   },
   "categories": {
     "Arrays": {
-      "Total": 7,
-      "Easy": 7,
+      "Total": 8,
+      "Easy": 8,
       "Medium": 0,
       "Hard": 0,
       "Unknown": 0
@@ -30,7 +30,7 @@ const dsaData = {
     }
   },
   "topic_stats": {
-    "Array": 8,
+    "Array": 9,
     "Hash Table": 3,
     "Math": 9,
     "Sorting": 3,
@@ -136,6 +136,20 @@ const dsaData = {
       "folder_path": "D:\\PROGRAMMING\\Arrays\\1365_how_many_numbers_are_smaller_than_the_current_number",
       "rel_folder": "Arrays/1365_how_many_numbers_are_smaller_than_the_current_number",
       "encoded_folder": "Arrays/1365_how_many_numbers_are_smaller_than_the_current_number"
+    },
+    {
+      "num": "1431",
+      "title": "Kids With the Greatest Number of Candies",
+      "link": "https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/",
+      "difficulty": "Easy",
+      "category": "Arrays",
+      "topics": [
+        "Array"
+      ],
+      "date": "2026-10-12",
+      "folder_path": "D:\\PROGRAMMING\\Arrays\\1431_kids_with_the_greatest_number_of_candies",
+      "rel_folder": "Arrays/1431_kids_with_the_greatest_number_of_candies",
+      "encoded_folder": "Arrays/1431_kids_with_the_greatest_number_of_candies"
     },
     {
       "num": "1470",

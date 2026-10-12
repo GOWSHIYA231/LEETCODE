@@ -3,18 +3,18 @@
 ## 📊 Statistics
 
 <!-- STATS:START -->
-**Total Problems Solved:** 16
+**Total Problems Solved:** 17
 
 ### Difficulty Breakdown
-- 🟢 **Easy** (93.8%): `███████████████████░` (15)
-- 🟡 **Medium** (6.2%): `█░░░░░░░░░░░░░░░░░░░` (1)
+- 🟢 **Easy** (94.1%): `███████████████████░` (16)
+- 🟡 **Medium** (5.9%): `█░░░░░░░░░░░░░░░░░░░` (1)
 - 🔴 **Hard** (0.0%): `░░░░░░░░░░░░░░░░░░░░` (0)
 
 ### Topic Breakdown
 
 | Topic | Total | 🟢 Easy | 🟡 Medium | 🔴 Hard |
 |---|---|---|---|---|
-| **Arrays** | 7 | 7 | 0 | 0 |
+| **Arrays** | 8 | 8 | 0 | 0 |
 | **Other** | 5 | 4 | 1 | 0 |
 | **Math** | 4 | 4 | 0 | 0 |
 
@@ -33,6 +33,7 @@
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy | Arrays | [Code & Doc](./Arrays/217_contains_duplicate) |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 Easy | Other | [Code & Doc](./Other/1281_subtract_the_product_and_sum_of_digits_of_an_integer) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 Easy | Arrays | [Code & Doc](./Arrays/1365_how_many_numbers_are_smaller_than_the_current_number) |
+| 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 Easy | Arrays | [Code & Doc](./Arrays/1431_kids_with_the_greatest_number_of_candies) |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 Easy | Arrays | [Code & Doc](./Arrays/1470_shuffle_the_array) |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | 🟢 Easy | Arrays | [Code & Doc](./Arrays/1480_running_sum_of_1d_array) |
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | 🟢 Easy | Math | [Code & Doc](./Math/1486_xor_operation_in_an_array) |
