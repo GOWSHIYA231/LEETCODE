@@ -1,7 +1,7 @@
 const dsaData = {
-  "total": 12,
+  "total": 13,
   "difficulty": {
-    "Easy": 11,
+    "Easy": 12,
     "Medium": 1,
     "Hard": 0,
     "Unknown": 0
@@ -22,8 +22,8 @@ const dsaData = {
       "Unknown": 0
     },
     "Math": {
-      "Total": 2,
-      "Easy": 2,
+      "Total": 3,
+      "Easy": 3,
       "Medium": 0,
       "Hard": 0,
       "Unknown": 0
@@ -32,9 +32,10 @@ const dsaData = {
   "topic_stats": {
     "Array": 5,
     "Hash Table": 3,
-    "Math": 8,
+    "Math": 9,
     "Sorting": 2,
     "Counting Sort": 1,
+    "Bit Manipulation": 1,
     "Matrix": 1,
     "Enumeration": 1,
     "Number Theory": 2,
@@ -133,6 +134,21 @@ const dsaData = {
       "folder_path": "D:\\PROGRAMMING\\Arrays\\1365_how_many_numbers_are_smaller_than_the_current_number",
       "rel_folder": "Arrays/1365_how_many_numbers_are_smaller_than_the_current_number",
       "encoded_folder": "Arrays/1365_how_many_numbers_are_smaller_than_the_current_number"
+    },
+    {
+      "num": "1486",
+      "title": "XOR Operation in an Array",
+      "link": "https://leetcode.com/problems/xor-operation-in-an-array/",
+      "difficulty": "Easy",
+      "category": "Math",
+      "topics": [
+        "Math",
+        "Bit Manipulation"
+      ],
+      "date": "2026-10-12",
+      "folder_path": "D:\\PROGRAMMING\\Math\\1486_xor_operation_in_an_array",
+      "rel_folder": "Math/1486_xor_operation_in_an_array",
+      "encoded_folder": "Math/1486_xor_operation_in_an_array"
     },
     {
       "num": "1523",

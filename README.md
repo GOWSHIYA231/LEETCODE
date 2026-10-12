@@ -3,11 +3,11 @@
 ## 📊 Statistics
 
 <!-- STATS:START -->
-**Total Problems Solved:** 12
+**Total Problems Solved:** 13
 
 ### Difficulty Breakdown
-- 🟢 **Easy** (91.7%): `██████████████████░░` (11)
-- 🟡 **Medium** (8.3%): `██░░░░░░░░░░░░░░░░░░` (1)
+- 🟢 **Easy** (92.3%): `██████████████████░░` (12)
+- 🟡 **Medium** (7.7%): `██░░░░░░░░░░░░░░░░░░` (1)
 - 🔴 **Hard** (0.0%): `░░░░░░░░░░░░░░░░░░░░` (0)
 
 ### Topic Breakdown
@@ -16,7 +16,7 @@
 |---|---|---|---|---|
 | **Arrays** | 5 | 5 | 0 | 0 |
 | **Other** | 5 | 4 | 1 | 0 |
-| **Math** | 2 | 2 | 0 | 0 |
+| **Math** | 3 | 3 | 0 | 0 |
 
 <!-- STATS:END -->
 
@@ -33,6 +33,7 @@
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy | Arrays | [Code & Doc](./Arrays/217_contains_duplicate) |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 Easy | Other | [Code & Doc](./Other/1281_subtract_the_product_and_sum_of_digits_of_an_integer) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 Easy | Arrays | [Code & Doc](./Arrays/1365_how_many_numbers_are_smaller_than_the_current_number) |
+| 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | 🟢 Easy | Math | [Code & Doc](./Math/1486_xor_operation_in_an_array) |
 | 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | 🟢 Easy | Other | [Code & Doc](./Other/1523_count_odd_numbers_in_an_interval_range) |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | 🟢 Easy | Arrays | [Code & Doc](./Arrays/1672_richest_customer_wealth) |
 | 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors/) | 🟢 Easy | Other | [Code & Doc](./Other/1952_three_divisors) |
